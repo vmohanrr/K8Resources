@@ -7,8 +7,8 @@ data:
       rolearn: arn:aws:iam::752692907119:role/eksctl-eks-cluster-nodegroup-spot-NodeInstanceRole-1D991C7C0OV94
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
-    - userarn: arn:aws:iam::301435234191:user/Roboshop-Admin
-      username: roboshop-admin
+    - userarn: arn:aws:iam::578578286919:user/Roboshop-Admin
+      username: Roboshop-admin
 kind: ConfigMap
 metadata:
   creationTimestamp: "2023-04-05T14:29:13Z"
